@@ -14,7 +14,11 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD
   "/precache-manifest.7531f0cc1a15826f2747c36ff52c0ff6.js"
+=======
+  "/precache-manifest.d6d7fe38767f56b5e8cfa18c5a0b7702.js"
+>>>>>>> parent of 629ee90... gh-pages
 );
 
 self.addEventListener('message', (event) => {

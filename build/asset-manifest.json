@@ -1,15 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.1d4fc490.chunk.css",
+<<<<<<< HEAD
     "main.js": "/static/js/main.0bdc84ff.chunk.js",
     "main.js.map": "/static/js/main.0bdc84ff.chunk.js.map",
+=======
+    "main.js": "/static/js/main.88376816.chunk.js",
+    "main.js.map": "/static/js/main.88376816.chunk.js.map",
+>>>>>>> parent of 629ee90... gh-pages
     "runtime-main.js": "/static/js/runtime-main.65d5e208.js",
     "runtime-main.js.map": "/static/js/runtime-main.65d5e208.js.map",
     "static/css/2.176577ff.chunk.css": "/static/css/2.176577ff.chunk.css",
     "static/js/2.61bf14ca.chunk.js": "/static/js/2.61bf14ca.chunk.js",
     "static/js/2.61bf14ca.chunk.js.map": "/static/js/2.61bf14ca.chunk.js.map",
     "index.html": "/index.html",
+<<<<<<< HEAD
     "precache-manifest.7531f0cc1a15826f2747c36ff52c0ff6.js": "/precache-manifest.7531f0cc1a15826f2747c36ff52c0ff6.js",
+=======
+    "precache-manifest.d6d7fe38767f56b5e8cfa18c5a0b7702.js": "/precache-manifest.d6d7fe38767f56b5e8cfa18c5a0b7702.js",
+>>>>>>> parent of 629ee90... gh-pages
     "service-worker.js": "/service-worker.js",
     "static/css/2.176577ff.chunk.css.map": "/static/css/2.176577ff.chunk.css.map",
     "static/css/main.1d4fc490.chunk.css.map": "/static/css/main.1d4fc490.chunk.css.map",
@@ -29,6 +38,10 @@
     "static/css/2.176577ff.chunk.css",
     "static/js/2.61bf14ca.chunk.js",
     "static/css/main.1d4fc490.chunk.css",
+<<<<<<< HEAD
     "static/js/main.0bdc84ff.chunk.js"
+=======
+    "static/js/main.88376816.chunk.js"
+>>>>>>> parent of 629ee90... gh-pages
   ]
 }
