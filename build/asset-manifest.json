@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d4fc490.chunk.css",
+    "main.js": "/static/js/main.88376816.chunk.js",
+    "main.js.map": "/static/js/main.88376816.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.65d5e208.js",
+    "runtime-main.js.map": "/static/js/runtime-main.65d5e208.js.map",
+    "static/css/2.176577ff.chunk.css": "/static/css/2.176577ff.chunk.css",
+    "static/js/2.61bf14ca.chunk.js": "/static/js/2.61bf14ca.chunk.js",
+    "static/js/2.61bf14ca.chunk.js.map": "/static/js/2.61bf14ca.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d6d7fe38767f56b5e8cfa18c5a0b7702.js": "/precache-manifest.d6d7fe38767f56b5e8cfa18c5a0b7702.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.176577ff.chunk.css.map": "/static/css/2.176577ff.chunk.css.map",
+    "static/css/main.1d4fc490.chunk.css.map": "/static/css/main.1d4fc490.chunk.css.map",
+    "static/js/2.61bf14ca.chunk.js.LICENSE.txt": "/static/js/2.61bf14ca.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/static/media/1.87dc5972.jpg",
+    "static/media/Dictionary.png": "/static/media/Dictionary.32ae7dd6.png",
+    "static/media/MananPatel_Resume_&_Cover_Letter.pdf": "/static/media/MananPatel_Resume_&_Cover_Letter.cc047175.pdf",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/coffee&travel.jpg": "/static/media/coffee&travel.569c2d88.jpg",
+    "static/media/hello_world.jpg": "/static/media/hello_world.40ed3e52.jpg",
+    "static/media/seneca.png": "/static/media/seneca.2a1912c8.png",
+    "static/media/software_developer.jpg": "/static/media/software_developer.4eca0776.jpg",
+    "static/media/vroommanager.png": "/static/media/vroommanager.e88ca79f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65d5e208.js",
+    "static/css/2.176577ff.chunk.css",
+    "static/js/2.61bf14ca.chunk.js",
+    "static/css/main.1d4fc490.chunk.css",
+    "static/js/main.88376816.chunk.js"
+  ]
+}

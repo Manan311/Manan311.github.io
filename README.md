@@ -1,2 +1,5 @@
-# My_Website
- 
+# Manan311.github.io
+Personal Website
+
+
+Hello, I am a fourth year Seneca student, studing software development and this is my personal website. Feel free to take a look.
