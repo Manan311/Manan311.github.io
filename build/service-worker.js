@@ -15,10 +15,14 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox
 
 importScripts(
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/precache-manifest.7531f0cc1a15826f2747c36ff52c0ff6.js"
 =======
   "/precache-manifest.d6d7fe38767f56b5e8cfa18c5a0b7702.js"
 >>>>>>> parent of 629ee90... gh-pages
+=======
+  "/My_Website/precache-manifest.637ef17c7826651741b0432b8b883719.js"
+>>>>>>> parent of 4395e54... updated rotues to work with github
 );
 
 self.addEventListener('message', (event) => {
