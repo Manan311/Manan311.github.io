@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/My_Website/static/css/main.67876cee.chunk.css",
-    "main.js": "/My_Website/static/js/main.cb63ce11.chunk.js",
-    "main.js.map": "/My_Website/static/js/main.cb63ce11.chunk.js.map",
+    "main.js": "/My_Website/static/js/main.0c52ebd9.chunk.js",
+    "main.js.map": "/My_Website/static/js/main.0c52ebd9.chunk.js.map",
     "runtime-main.js": "/My_Website/static/js/runtime-main.3b404e37.js",
     "runtime-main.js.map": "/My_Website/static/js/runtime-main.3b404e37.js.map",
     "static/css/2.81501259.chunk.css": "/My_Website/static/css/2.81501259.chunk.css",
     "static/js/2.61bf14ca.chunk.js": "/My_Website/static/js/2.61bf14ca.chunk.js",
     "static/js/2.61bf14ca.chunk.js.map": "/My_Website/static/js/2.61bf14ca.chunk.js.map",
     "index.html": "/My_Website/index.html",
-    "precache-manifest.91cb9181c29e274bc7565067579be457.js": "/My_Website/precache-manifest.91cb9181c29e274bc7565067579be457.js",
+    "precache-manifest.91d65afd1296b43c208d40a33f375a7e.js": "/My_Website/precache-manifest.91d65afd1296b43c208d40a33f375a7e.js",
     "service-worker.js": "/My_Website/service-worker.js",
     "static/css/2.81501259.chunk.css.map": "/My_Website/static/css/2.81501259.chunk.css.map",
     "static/css/main.67876cee.chunk.css.map": "/My_Website/static/css/main.67876cee.chunk.css.map",
     "static/js/2.61bf14ca.chunk.js.LICENSE.txt": "/My_Website/static/js/2.61bf14ca.chunk.js.LICENSE.txt",
-    "static/media/1.jpg": "/My_Website/static/media/1.87dc5972.jpg",
+    "static/media/style.css": "/My_Website/static/media/1.87dc5972.jpg",
     "static/media/Dictionary.png": "/My_Website/static/media/Dictionary.32ae7dd6.png",
+    "static/media/Estate.png": "/My_Website/static/media/Estate.fbc4e3cb.png",
     "static/media/MananPatel_Resume_&_Cover_Letter.pdf": "/My_Website/static/media/MananPatel_Resume_&_Cover_Letter.cc047175.pdf",
     "static/media/semantic.min.css": "/My_Website/static/media/outline-icons.ef60a4f6.woff",
     "static/media/coffee&travel.jpg": "/My_Website/static/media/coffee&travel.569c2d88.jpg",
@@ -29,6 +30,6 @@
     "static/css/2.81501259.chunk.css",
     "static/js/2.61bf14ca.chunk.js",
     "static/css/main.67876cee.chunk.css",
-    "static/js/main.cb63ce11.chunk.js"
+    "static/js/main.0c52ebd9.chunk.js"
   ]
 }
