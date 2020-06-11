@@ -1,16 +1,20 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "semantic-ui-css/semantic.min.css";
-import { Card, Image, Header, Icon, Button } from "semantic-ui-react";
+import { Card, Image, Header, Icon, Button, Label } from "semantic-ui-react";
 import Nav from "./nav";
 import Footer from "./footer";
 import "./style.css";
 import { CSSTransition } from "react-transition-group";
 import Dictionary from "./image/Dictionary.png";
 import VRoomManager from "./image/vroommanager.png";
-import pic from "./image/1.jpg";
+import Estate from "./image/Estate.png";
 
 class Projects extends Component {
+  state = {
+    disabledClicked: false,
+  };
+
   constructor(props) {
     super(props);
     this.githubDictionaryClick = this.githubDictionaryClick.bind(this);
@@ -21,12 +25,16 @@ class Projects extends Component {
     this.demoVRoomManagerClick = this.demoVRoomManagerClick.bind(this);
   }
 
-  githubDictionaryClick() {
-    window.open("http://github.com/Manan311/The_Dictionary", "blank");
+  githubEstateClick() {
+    this.setState({ disabledClicked: true });
+
+    setTimeout(() => {
+      this.setState({ disabledClicked: false });
+    }, 3000);
   }
 
-  githubEstateClick() {
-    window.open("http://github.com/Manan311", "blank");
+  githubDictionaryClick() {
+    window.open("http://github.com/Manan311/The_Dictionary", "blank");
   }
 
   githubVRoomManagerClick() {
@@ -34,7 +42,10 @@ class Projects extends Component {
   }
 
   demoDictionaryClick() {
-    window.open("https://warm-reaches-18977.herokuapp.com/term/english", "blank");
+    window.open(
+      "https://warm-reaches-18977.herokuapp.com/term/english",
+      "blank"
+    );
   }
 
   demoEstateClick() {
@@ -46,6 +57,32 @@ class Projects extends Component {
   }
 
   render() {
+    let disabledGitButton;
+    if (this.state.disabledClicked) {
+      disabledGitButton = (
+        <div>
+          <Label basic color="red" pointing="right">
+            Private Repository
+          </Label>
+          <Button
+            circular
+            onClick={this.githubEstateClick.bind(this)}
+            color="github"
+            icon="github"
+          ></Button>
+        </div>
+      );
+    } else {
+      disabledGitButton = (
+        <Button
+          circular
+          onClick={this.githubEstateClick.bind(this)}
+          color="github"
+          icon="github"
+        />
+      );
+    }
+
     return (
       <div>
         <Nav />
@@ -68,9 +105,11 @@ class Projects extends Component {
                     Dividing Header
                   </Header> */}
                   <Card.Group centered itemsPerRow={3}>
+                    {/* Estate */}
                     <Card color="red">
                       <Image
-                        src={Dictionary}
+                        src={Estate}
+                        alt="Estate.png"
                         wrapped
                         ui={false}
                         label={{
@@ -79,6 +118,41 @@ class Projects extends Component {
                           icon: "thumbtack",
                           ribbon: true,
                         }}
+                      />
+                      <Card.Content content="red">
+                        <Card.Header>
+                          Estate
+                          <div className="fright">{disabledGitButton}</div>
+                        </Card.Header>
+                        <Card.Meta>January, 2020 - Present</Card.Meta>
+                        <Card.Description>
+                          Estate is a ReactJS web application that uses
+                          text-to-speech technology to render searches. Estate
+                          is a modern realtor website compared to it
+                          competitors. Estate revolutionizes it's search engine
+                          to optimize the search processe to stay upto date with
+                          current technology. 
+                        </Card.Description>
+                      </Card.Content>
+                      <Card.Content extra>
+                        <Button
+                          negative
+                          disabled
+                          onClick={this.demoEstateClick.bind(this)}
+                          attached="bottom"
+                        >
+                          Private Repository
+                        </Button>
+                      </Card.Content>
+                    </Card>
+
+                    {/* The Dictionary */}
+                    <Card color="red">
+                      <Image
+                        src={Dictionary}
+                        wrapped
+                        alt="Dictionary.png"
+                        ui={false}
                       />
                       <Card.Content content="red">
                         <Card.Header>
@@ -112,60 +186,14 @@ class Projects extends Component {
                         </Button>
                       </Card.Content>
                     </Card>
-                    <Card color="red">
-                      <Image
-                        src={pic}
-                        wrapped
-                        ui={false}
-                        label={{
-                          color: "red",
-                          content: "Developing",
-                          icon: "thumbtack",
-                          ribbon: true,
-                        }}
-                      />
-                      <Card.Content content="red">
-                        <Card.Header>
-                          Estate
-                          <div className="fright">
-                            <Button
-                              circular
-                              onClick={this.githubEstateClick.bind(this)}
-                              color="github"
-                              icon="github"
-                            />
-                          </div>{" "}
-                        </Card.Header>
-                        <Card.Meta>Joined in 2016</Card.Meta>
-                        <Card.Description>
-                          Daniel is a comedian living in Nashville. Daniel is a
-                          comedian living in Nashville. Daniel is a comedian
-                          living in Nashville. Daniel is a comedian living in
-                          Nashville. Daniel is a comedian living in Nashville.
-                          Daniel is a comedian living in Nashville.
-                        </Card.Description>
-                      </Card.Content>
-                      <Card.Content extra>
-                        <Button
-                          positive
-                          onClick={this.demoEstateClick.bind(this)}
-                          attached="bottom"
-                        >
-                          View Demo
-                        </Button>
-                      </Card.Content>
-                    </Card>
+
+                    {/* VRoomManager */}
                     <Card color="red">
                       <Image
                         src={VRoomManager}
+                        alt="VRoomManager.png"
                         wrapped
                         ui={false}
-                        // label={{
-                        //   color: "red",
-                        //   content: "Developing",
-                        //   icon: "thumbtack",
-                        //   ribbon: true,
-                        // }}
                       />
                       <Card.Content content="red">
                         <Card.Header>
