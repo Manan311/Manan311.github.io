@@ -73,10 +73,6 @@ class Home extends Component {
                   onClick={this.linkedInClick}
                 ></Button>
                 Linkedin
-                {/* <Link onClick={this.linkedInClick.bind(this)}>
-                  <Icon inverted color="blue" name="linkedin alt" circular />
-                  Linkedin
-                </Link> */}
               </div>
               <div className="home-icons-in-line">
               <Button
@@ -85,9 +81,6 @@ class Home extends Component {
                   circular
                   onClick={this.githubClick}
                 ></Button>
-                {/* <Link onClick={this.githubClick.bind(this)}>
-                  <Icon name="github" link circular />
-                </Link> */}
                 Github
               </div>
               <div className="home-icons-in-line">

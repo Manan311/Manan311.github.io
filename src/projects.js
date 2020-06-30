@@ -34,11 +34,11 @@ class Projects extends Component {
   }
 
   githubDictionaryClick() {
-    window.open("http://github.com/Manan311/The_Dictionary", "blank");
+    window.open("https://github.com/Manan311/The_Dictionary", "blank");
   }
 
   githubVRoomManagerClick() {
-    window.open("http://github.com/Manan311/VRoomManager", "blank");
+    window.open("https://github.com/Manan311/VRoomManager", "blank");
   }
 
   demoDictionaryClick() {
@@ -53,7 +53,7 @@ class Projects extends Component {
   }
 
   demoVRoomManagerClick() {
-    window.open("https://warm-lowlands-92673.herokuapp.com/cars", "blank");
+    window.open("https://shrouded-refuge-34702.herokuapp.com", "blank");
   }
 
   render() {

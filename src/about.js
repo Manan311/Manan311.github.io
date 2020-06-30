@@ -10,21 +10,21 @@ import image3 from "./image/hello_world.jpg";
 import image4 from "./image/coffee&travel.jpg";
 
 //Funtional Component Text
-function SlideRightTextSection1(props) {
+function TextSection1(props) {
   return (
     <div className="ani1">
-      I am new challenger entering the software development world. I am a fourth
-      year student at Seneca College studying Bachlores of Software Development
-      with Honours. Developing softwares started out as a necessity to make my
-      hardware work and run properly. After many trials and errors tring to make
-      the program run properly I realized how much I love solving problems and
-      figuring out multiple way to do the same thing. This lead me to choose a
-      career in developing softwares and applications.
+      Hello! My name is Manan and I am a 4th year Bachelor of Software
+      Development student currently studying at Seneca College. I am a new
+      challenger in the software development world whose passion started with a
+      heavy fascination of problem solving. Finding multiple ways to solve the
+      same problem has always been a hobby of mine. This passion transitioned
+      into the world of software development. In order to make a piece of
+      hardware work, it requires the necessary software.
     </div>
   );
 }
 
-function SlideRightTextSection2(props) {
+function TextSection2(props) {
   return (
     <div className="ani1">
       Seneca has provided me with theoretical and hands-on experience which has
@@ -33,13 +33,12 @@ function SlideRightTextSection2(props) {
       Seneca has also provided me with the knowledge and expertise of developing
       projects in many languages and framework in a team environment using git
       version control. As well as theory in many important concepts of
-      programming such as data patterns, networking and database to name a few
-      of them.
+      programming such as data patterns, networking and database to name a few.
     </div>
   );
 }
 
-function SlideRightTextSection3(props) {
+function TextSection3(props) {
   return (
     <div className="ani1">
       The programming languages I love working with are C++, JavaScript,
@@ -57,21 +56,23 @@ function SlideRightTextSection3(props) {
   );
 }
 
-function SlideRightTextSection4(props) {
+function TextSection4(props) {
   return (
     <div className="ani1">
-      I am a coffee lover and a badminton, long and table tennis enthusiast. I
-      really enjoy to travel from time to time. Places I like to visit do not
-      have to be off in another contry, that would be great but there are so
-      many really good places to explore in Ontario, couple hours away from
-      Toronto. These places are small but full of life. They have great water
-      falls and trails to explore. Just bewear of the bears.
+      For me, the morning only starts with a fresh cup of coffee. Besides being
+      a huge coffee lover, I play badminton or table tennis almost every
+      weekend. My other hobbies include travelling. My goal is to travel the
+      world when I am about to retire. I want to learn about all the cultures,
+      customs and foods the world has to offer. But right now, I make do with
+      long road trips across Ontario and exploring the beauty this province has
+      to offer. I also love going to down town and finding new cafes to try
+      different types of coffee.
     </div>
   );
 }
 
 //Functional Component Pictures
-function SlideLeftPictureSection1(props) {
+function PictureSection1(props) {
   return (
     <div className="ani2">
       <Image src={image1} alt="image1" />
@@ -79,7 +80,7 @@ function SlideLeftPictureSection1(props) {
   );
 }
 
-function SlideLeftPictureSection2(props) {
+function PictureSection2(props) {
   return (
     <div className="ani2">
       <Image src={image2} rounded bordered alt="image2" />
@@ -87,16 +88,15 @@ function SlideLeftPictureSection2(props) {
   );
 }
 
-function SlideLeftPictureSection3(props) {
+function PictureSection3(props) {
   return (
-
     <div className="ani2 b">
       <Image src={image3} alt="image3" />
     </div>
   );
 }
 
-function SlideLeftPictureSection4(props) {
+function PictureSection4(props) {
   return (
     <div className="ani2">
       <Image src={image4} alt="image4" />
@@ -113,7 +113,6 @@ class About extends Component {
         <CSSTransition in={true} appear={true} timeout={1000} classNames="fade">
           <div className="about-body">
             <div className="k">
-
               {/* section 1 title */}
               <section className="project-card black">
                 <div className="about-center">
@@ -123,44 +122,45 @@ class About extends Component {
                   </Header>
                 </div>
               </section>
-              
+
               {/* section 2, challenger and software developer text and pic*/}
               <section className="about-card">
                 <div className="middle">
-                  <SlideRightTextSection1 />
+                  <TextSection1 />
                 </div>
                 <div className="middle">
-                  <SlideLeftPictureSection1 />
+                  <PictureSection1 />
                 </div>
               </section>
 
               {/* section 3, seneca text and pic*/}
               <section className="about-card black">
                 <div className="middle">
-                  <SlideLeftPictureSection2 />
+                  <PictureSection2 />
                 </div>
                 <div className="middle">
-                  <SlideRightTextSection2 />
+                  <TextSection2 />
                 </div>
               </section>
 
               {/* section 4, tech skills, hello world text and pic*/}
-              <section className="about-card">
+{/* Commented out because i want to change this to be more personal then a resume */}
+              {/* <section className="about-card">
                 <div className="middle">
-                  <SlideRightTextSection3 />
+                  <TextSection3 />
                 </div>
                 <div className="middle">
-                  <SlideLeftPictureSection3 />
+                  <PictureSection3 />
                 </div>
-              </section>
+              </section> */}
 
               {/* section 5, coffe and travel text and pic*/}
-              <section className="about-card black">
-                <div className="middle">
-                  <SlideLeftPictureSection4 />
+              <section className="about-card">
+              <div className="middle">
+                  <TextSection4 />
                 </div>
                 <div className="middle">
-                  <SlideRightTextSection4 />
+                  <PictureSection4 />
                 </div>
               </section>
             </div>
