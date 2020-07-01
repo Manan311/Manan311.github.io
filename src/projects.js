@@ -273,6 +273,7 @@ class Projects extends Component {
                               onClick={this.githubDictionaryClick.bind(this)}
                               color="github"
                               icon="github"
+                              disabled
                             />
                           </div>
                         </Card.Header>
@@ -307,6 +308,7 @@ class Projects extends Component {
                               onClick={this.githubVRoomManagerClick.bind(this)}
                               color="github"
                               icon="github"
+                              disabled
                             />
                           </div>{" "}
                         </Card.Header>
@@ -335,8 +337,15 @@ class Projects extends Component {
                       <Card.Content content="red">
                         <Card.Header>
                           Contact Manager
-                          <div className="fright">{disabledGitButton}</div>
-                        </Card.Header>
+                          <div className="fright">
+                            <Button
+                              circular
+                              onClick={this.githubDictionaryClick.bind(this)}
+                              color="github"
+                              icon="github"
+                              disabled
+                            />
+                          </div>                        </Card.Header>
                         <Card.Meta>April, 2018</Card.Meta>
                         <Card.Description className="project-scrollable-description-2">
                           Contact manager is a C built application. It
