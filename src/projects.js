@@ -24,23 +24,17 @@ class Projects extends Component {
       source: AssemblyLine,
     };
 
-    this.play = this.play.bind(this);
-    this.pause = this.pause.bind(this);
-
+    //github binding
     this.githubDictionaryClick = this.githubDictionaryClick.bind(this);
     this.githubEstateClick = this.githubEstateClick.bind(this);
     this.githubVRoomManagerClick = this.githubVRoomManagerClick.bind(this);
+    this.githubAssemblyLineClick = this.githubAssemblyLineClick.bind(this);
+    this.githubContactManagerClick = this.githubContactManagerClick.bind(this);
+    this.githubChatSystemClick= this.githubChatSystemClick.bind(this);
+
+    //demo binding
     this.demoDictionaryClick = this.demoDictionaryClick.bind(this);
     this.demoVRoomManagerClick = this.demoVRoomManagerClick.bind(this);
-  }
-
-  // play video
-  play() {
-    this.AssemblyLine.play();
-  }
-
-  pause() {
-    this.player.pause();
   }
 
   // github
@@ -58,6 +52,18 @@ class Projects extends Component {
 
   githubVRoomManagerClick() {
     window.open("https://github.com/Manan311/VRoomManager", "blank");
+  }
+
+  githubAssemblyLineClick() {
+    window.open("https://github.com/Manan311/Assembly_Line", "blank");
+  }
+  
+  githubContactManagerClick() {
+    window.open("https://github.com/Manan311/Contact_Manager", "blank");
+  }
+  
+  githubChatSystemClick() {
+    window.open("https://github.com/Manan311/Chat_System", "blank");
   }
 
   //demos
@@ -270,10 +276,9 @@ class Projects extends Component {
                           <div className="fright">
                             <Button
                               circular
-                              onClick={this.githubDictionaryClick.bind(this)}
+                              onClick={this.githubAssemblyLineClick.bind(this)}
                               color="github"
                               icon="github"
-                              disabled
                             />
                           </div>
                         </Card.Header>
@@ -305,10 +310,9 @@ class Projects extends Component {
                           <div className="fright">
                             <Button
                               circular
-                              onClick={this.githubVRoomManagerClick.bind(this)}
+                              onClick={this.githubContactManagerClick.bind(this)}
                               color="github"
                               icon="github"
-                              disabled
                             />
                           </div>{" "}
                         </Card.Header>
@@ -340,10 +344,9 @@ class Projects extends Component {
                           <div className="fright">
                             <Button
                               circular
-                              onClick={this.githubDictionaryClick.bind(this)}
+                              onClick={this.githubChatSystemClick.bind(this)}
                               color="github"
                               icon="github"
-                              disabled
                             />
                           </div>                        </Card.Header>
                         <Card.Meta>April, 2018</Card.Meta>

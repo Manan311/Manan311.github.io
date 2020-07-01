@@ -2,3 +2,4 @@ To Deploy to Github Pages:
 
 1. npm run predeploy
 2. npm run deploy
+3. wait for it to update
