@@ -266,17 +266,54 @@ class Resume extends Component {
                     <div className="res_project">
                       {/* Capstone */}
                       <div className="resume_project_title">
-                        CAPSTONE PROJECT – CUSTOMER ORDER AND MANAGEMENT SYSTEM{" "}
+                        CAPSTONE PROJECT – REALTOR WEBSITE
                       </div>
                       <div className="resume_project_date">
-                        MAY, 2019 – PRESENT{" "}
+                        MAY, 2019 – PRESENT
                       </div>
                       <div className="res_project_bullets">
                         <li>
-                          Developed a NodeJS and Angular app that lets you
-                          manage green cleaning and stitching business
+                          Developed a NodeJS and ReactJS app that lets users
+                          browse listings for sell via voice using
+                          speech-to-text technology
                         </li>
-                        <li>Integrated MongoDB to store data in a cloud </li>
+                        <li>
+                          Integrated MongoDB to store lisiting data in a cloud
+                        </li>
+                        <li>
+                          Future plan is to develop it so users can create
+                          accounts and be able to store their favourite listings
+                          and post their own listings
+                        </li>
+                      </div>
+                    </div>
+
+                    <br />
+                    {/* The Dictionary */}
+                    <div className="res_project">
+                      <div className="resume_project_title">
+                        THE DICTIONARY - ONLINE RESOURCE FOR FUTURE SENECA BSD
+                        STUDENTS
+                      </div>
+                      <div className="resume_project_date">
+                        MARCH, 2020 – APRIL, 2020
+                      </div>
+                      <div className="res_project_bullets">
+                        <li>
+                          Developed a NodeJS and Angular app that lets students
+                          search for technnical words and find a professor
+                          approved definition for them in english and other
+                          Languages
+                        </li>
+                        <li>
+                          The definitions will have optional links for wiki,
+                          video and audio which help with explaning the term or
+                          show examples of them in use
+                        </li>
+                        <li>
+                          Integrated MongoDB to store all the terms information
+                          in a cloud
+                        </li>
                       </div>
                     </div>
 
@@ -287,7 +324,7 @@ class Resume extends Component {
                         VROOMMANAGER – CAR MANAGEMENT SYSTEM
                       </div>
                       <div className="resume_project_date">
-                        JANUARY, 2020 – FEBUARY, 2020
+                        JANUARY, 2020 – JANUARY, 2020
                       </div>
                       <div className="res_project_bullets">
                         <li>

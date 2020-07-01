@@ -6,7 +6,7 @@ import "./style.css";
 import { CSSTransition } from "react-transition-group";
 import image1 from "./image/software_developer.jpg";
 import image2 from "./image/seneca.png";
-import image3 from "./image/hello_world.jpg";
+// import image3 from "./image/hello_world.jpg";
 import image4 from "./image/coffee&travel.jpg";
 
 //Funtional Component Text
@@ -33,28 +33,29 @@ function TextSection2(props) {
       Seneca has also provided me with the knowledge and expertise of developing
       projects in many languages and framework in a team environment using git
       version control. As well as theory in many important concepts of
-      programming such as data patterns, networking and database to name a few.
+      programming such as object oriented principles, data patterns, networking,
+      database, system analysis and design to name a few.
     </div>
   );
 }
 
-function TextSection3(props) {
-  return (
-    <div className="ani1">
-      The programming languages I love working with are C++, JavaScript,
-      TypeScript, HTML/CSS and PL/SQL. I am also familliar and able to work with
-      C, Java. I have experience working with Angular, ReactJS, NodeJS,
-      ExpressJS, Android and React Native frameworks. My go to database are
-      MongoDB and SQLite but I have also worked with PostgreSQL, SQL Server and
-      MySQL. Git is the version control system I worked with when I have
-      collaborative projects. Other techniques I am familiar with are Agile
-      programing, RESTFUL APIs, Asynchronous JavaScript and XML(AJAX) and
-      JavaScript Object Notation(JSON). I am also able to work with Linux
-      distros, Unix shell and Windows command prompt. Prefrences going to Linux
-      and Unix based systemes.
-    </div>
-  );
-}
+// function TextSection3(props) {
+//   return (
+//     <div className="ani1">
+//       The programming languages I love working with are C++, JavaScript,
+//       TypeScript, HTML/CSS and PL/SQL. I am also familliar and able to work with
+//       C, Java. I have experience working with Angular, ReactJS, NodeJS,
+//       ExpressJS, Android and React Native frameworks. My go to database are
+//       MongoDB and SQLite but I have also worked with PostgreSQL, SQL Server and
+//       MySQL. Git is the version control system I worked with when I have
+//       collaborative projects. Other techniques I am familiar with are Agile
+//       programing, RESTFUL APIs, Asynchronous JavaScript and XML(AJAX) and
+//       JavaScript Object Notation(JSON). I am also able to work with Linux
+//       distros, Unix shell and Windows command prompt. Prefrences going to Linux
+//       and Unix based systemes.
+//     </div>
+//   );
+// }
 
 function TextSection4(props) {
   return (
@@ -88,13 +89,13 @@ function PictureSection2(props) {
   );
 }
 
-function PictureSection3(props) {
-  return (
-    <div className="ani2 b">
-      <Image src={image3} alt="image3" />
-    </div>
-  );
-}
+// function PictureSection3(props) {
+//   return (
+//     <div className="ani2 b">
+//       <Image src={image3} alt="image3" />
+//     </div>
+//   );
+// }
 
 function PictureSection4(props) {
   return (
@@ -144,7 +145,7 @@ class About extends Component {
               </section>
 
               {/* section 4, tech skills, hello world text and pic*/}
-{/* Commented out because i want to change this to be more personal then a resume */}
+              {/* Commented out because i want to change this to be more personal then a resume */}
               {/* <section className="about-card">
                 <div className="middle">
                   <TextSection3 />
@@ -156,7 +157,7 @@ class About extends Component {
 
               {/* section 5, coffe and travel text and pic*/}
               <section className="about-card">
-              <div className="middle">
+                <div className="middle">
                   <TextSection4 />
                 </div>
                 <div className="middle">

@@ -1,4 +1,5 @@
 @import "~semantic-ui-css/semantic.css";
+@import '~video-react/dist/video-react.css';
 
 /* 
 style ledgend
@@ -227,6 +228,18 @@ h1 {
 .fright{
   display: inline;
   float: right;
+}
+
+.project-scrollable-description{
+  min-height: 18vh;
+  max-height: 18vh;
+  overflow: scroll;
+}
+
+.project-scrollable-description-2{
+  min-height: 27vh;
+  max-height: 27vh;
+  overflow: scroll;
 }
 
 /* resume */

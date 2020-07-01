@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css";
-import { Icon, Button } from "semantic-ui-react";
+import { Button } from "semantic-ui-react";
 import Nav from "./nav";
 import Footer from "./footer";
 import "./style.css";
-import { Link } from "react-router-dom";
 import copy from "copy-to-clipboard";
 import { CSSTransition } from "react-transition-group";
 
