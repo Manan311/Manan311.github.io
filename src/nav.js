@@ -23,7 +23,7 @@ class Nav extends Component {
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
   githubClick() {
-    window.open('http://github.com', 'blank');
+    window.open('http://github.com/Manan311', 'blank');
   }
 
   onClick(){

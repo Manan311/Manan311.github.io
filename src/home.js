@@ -27,7 +27,7 @@ class Home extends Component {
   }
 
   githubClick() {
-    window.open('http://github.com', 'blank');
+    window.open('http://github.com/Manan311', 'blank');
   }
 
   linkedInClick() {

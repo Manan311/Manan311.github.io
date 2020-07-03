@@ -184,7 +184,7 @@ class Projects extends Component {
                             />
                           </div>
                         </Card.Header>
-                        <Card.Meta>March, 2020 - April, 2020</Card.Meta>
+                        <Card.Meta>April, 2020</Card.Meta>
                         <Card.Description className="project-scrollable-description">
                           The Dictionary is an Angular web application with
                           Node=Express backend and Mongo for database. It is

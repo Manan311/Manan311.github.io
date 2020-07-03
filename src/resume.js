@@ -296,7 +296,7 @@ class Resume extends Component {
                         STUDENTS
                       </div>
                       <div className="resume_project_date">
-                        MARCH, 2020 – APRIL, 2020
+                        APRIL, 2020
                       </div>
                       <div className="res_project_bullets">
                         <li>
@@ -324,7 +324,7 @@ class Resume extends Component {
                         VROOMMANAGER – CAR MANAGEMENT SYSTEM
                       </div>
                       <div className="resume_project_date">
-                        JANUARY, 2020 – JANUARY, 2020
+                        JANUARY, 2020
                       </div>
                       <div className="res_project_bullets">
                         <li>
