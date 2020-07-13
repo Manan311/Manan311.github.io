@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6101a441bd49d2fe0e651b3e5345d12b",
+    "revision": "6f0ed083e655ec0992b1e38967bf0c2c",
     "url": "/My_Website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Website/static/css/2.864d59c5.chunk.css"
   },
   {
-    "revision": "5c4d85d80a09f6de3310",
+    "revision": "6efe61e8b6bb19c1172e",
     "url": "/My_Website/static/css/main.671d63b3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Website/static/js/2.8c222b54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c4d85d80a09f6de3310",
-    "url": "/My_Website/static/js/main.d9811e63.chunk.js"
+    "revision": "6efe61e8b6bb19c1172e",
+    "url": "/My_Website/static/js/main.8fa6222e.chunk.js"
   },
   {
     "revision": "d00e8df125034d3dcf25",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Website/static/media/Estate.fbc4e3cb.png"
   },
   {
-    "revision": "d2cb411dc25bdc888cdf4f58fab53bf2",
-    "url": "/My_Website/static/media/MananPatel_Resume_&_Cover_Letter.d2cb411d.pdf"
+    "revision": "15b10c83f3a5c61144506662ab65a66c",
+    "url": "/My_Website/static/media/MananPatel_Resume_&_Cover_Letter.15b10c83.pdf"
   },
   {
     "revision": "8211ad2034fcf0da135f5415cc0f13b7",
