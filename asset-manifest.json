@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/My_Website/static/css/main.671d63b3.chunk.css",
-    "main.js": "/My_Website/static/js/main.d9811e63.chunk.js",
-    "main.js.map": "/My_Website/static/js/main.d9811e63.chunk.js.map",
+    "main.js": "/My_Website/static/js/main.8fa6222e.chunk.js",
+    "main.js.map": "/My_Website/static/js/main.8fa6222e.chunk.js.map",
     "runtime-main.js": "/My_Website/static/js/runtime-main.3b404e37.js",
     "runtime-main.js.map": "/My_Website/static/js/runtime-main.3b404e37.js.map",
     "static/css/2.864d59c5.chunk.css": "/My_Website/static/css/2.864d59c5.chunk.css",
     "static/js/2.8c222b54.chunk.js": "/My_Website/static/js/2.8c222b54.chunk.js",
     "static/js/2.8c222b54.chunk.js.map": "/My_Website/static/js/2.8c222b54.chunk.js.map",
     "index.html": "/My_Website/index.html",
-    "precache-manifest.be90302fe9fcf00069083953f22f663b.js": "/My_Website/precache-manifest.be90302fe9fcf00069083953f22f663b.js",
+    "precache-manifest.e03e981868ed24d58f039b518487c0e5.js": "/My_Website/precache-manifest.e03e981868ed24d58f039b518487c0e5.js",
     "service-worker.js": "/My_Website/service-worker.js",
     "static/css/2.864d59c5.chunk.css.map": "/My_Website/static/css/2.864d59c5.chunk.css.map",
     "static/css/main.671d63b3.chunk.css.map": "/My_Website/static/css/main.671d63b3.chunk.css.map",
@@ -19,7 +19,7 @@
     "static/media/C_Contant_Management_System.mp4": "/My_Website/static/media/C_Contant_Management_System.c6dbcbe7.mp4",
     "static/media/Dictionary.png": "/My_Website/static/media/Dictionary.32ae7dd6.png",
     "static/media/Estate.png": "/My_Website/static/media/Estate.fbc4e3cb.png",
-    "static/media/MananPatel_Resume_&_Cover_Letter.pdf": "/My_Website/static/media/MananPatel_Resume_&_Cover_Letter.d2cb411d.pdf",
+    "static/media/MananPatel_Resume_&_Cover_Letter.pdf": "/My_Website/static/media/MananPatel_Resume_&_Cover_Letter.15b10c83.pdf",
     "static/media/TCP_Chat_C++.mp4": "/My_Website/static/media/TCP_Chat_C++.8211ad20.mp4",
     "static/media/semantic.min.css": "/My_Website/static/media/outline-icons.ef60a4f6.woff",
     "static/media/coffee&travel.jpg": "/My_Website/static/media/coffee&travel.569c2d88.jpg",
@@ -32,6 +32,6 @@
     "static/css/2.864d59c5.chunk.css",
     "static/js/2.8c222b54.chunk.js",
     "static/css/main.671d63b3.chunk.css",
-    "static/js/main.d9811e63.chunk.js"
+    "static/js/main.8fa6222e.chunk.js"
   ]
 }
