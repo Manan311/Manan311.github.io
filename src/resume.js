@@ -52,7 +52,7 @@ class Resume extends Component {
                   </td>
                 </tr>
 
-                {/* Goal */}
+                {/* Goal
                 <tr className="resume_goal">
                   <td className="resume_margin">Goal</td>
                   <td className="resume_page">
@@ -61,7 +61,7 @@ class Resume extends Component {
                       related to software development.
                     </p>
                   </td>
-                </tr>
+                </tr> */}
 
                 {/* Objective */}
                 <tr className="resume_objective">
@@ -70,7 +70,7 @@ class Resume extends Component {
                     <p>
                       An aspiring fourth-year student at Seneca College,
                       currently studying Software Development with Honours, who
-                      is actively looking for opportunities, such as coop, to
+                      is actively looking for fulltime opportunities to
                       add considerable work experience to his portfolio. In
                       addition to the work experience, it is also planned to
                       complete a Master’s in Software Engineering.
@@ -181,8 +181,8 @@ class Resume extends Component {
                             Programming Languages:
                           </th>
                           <td className="resume_skills_table_cell_description">
-                            C, C++, Java, PL/SQL, JavaScript, TypeScript,
-                            HTML/CSS
+                            C, C++, C#, Java, PL/SQL, JavaScript, TypeScript,
+                            HTML/CSS, Python
                           </td>
                         </tr>
                         <tr className="resume_skills_table_row_2">
@@ -190,8 +190,7 @@ class Resume extends Component {
                             Frameworks:
                           </th>
                           <td className="resume_skills_table_cell_description">
-                            Angular, ReactJS, React Native, NodeJS, ExpressJS,
-                            JQuery, Android
+                            Angular, ReactJS, React Native, NodeJS, ExpressJS, .NETa
                           </td>
                         </tr>
                         <tr className="resume_skills_table_row_3">
@@ -207,7 +206,7 @@ class Resume extends Component {
                             Other:
                           </th>
                           <td className="resume_skills_table_cell_description">
-                            Git, Agile, RESTful APIs/AJAX/JSON, Linux, Unix
+                          Git, Agile, RESTful APIs/AJAX/JSON, jQuery, SOAP, MVC, Linux, Unix, Android and Cross Platform Development, White and Black Box Testing
                           </td>
                         </tr>
                       </tbody>
@@ -229,33 +228,14 @@ class Resume extends Component {
                       </div>
                       <div className="res_education_bullets">
                         <li>
-                          Achieved outstanding results in all programming
-                          courses such as C, C++, Database{" "}
+                        Achieved outstanding results in all programming courses such as C, C++, Database, Algorithms and Data Structure, web development, etc.
                         </li>
                         <li>
-                          Experience with scripting and using Unix-based distros{" "}
+                          Experience with scripting and using Unix-based distros
                         </li>
                       </div>
                     </div>
                     <br />
-                    {/* Martingrove */}
-                    <div className="res_education">
-                      <div className="resume_education_title">
-                        MARTINGROVE COLLIGATE INSTITUTE – HIGHSCHOOL{" "}
-                      </div>
-                      <div className="resume_education_date">
-                        GRADUATED – JUNE, 2017{" "}
-                      </div>
-                      <div className="res_education_bullets">
-                        <li>
-                          A member of the First Robotic Competition, FRC, where
-                          the team competed in the Provincials
-                        </li>
-                        <li>
-                          Programmed a 3D Tic-Tac-Toe simulation using Java{" "}
-                        </li>
-                      </div>
-                    </div>
                   </td>
                 </tr>
 
@@ -295,9 +275,7 @@ class Resume extends Component {
                         THE DICTIONARY - ONLINE RESOURCE FOR FUTURE SENECA BSD
                         STUDENTS
                       </div>
-                      <div className="resume_project_date">
-                        APRIL, 2020
-                      </div>
+                      <div className="resume_project_date">APRIL, 2020</div>
                       <div className="res_project_bullets">
                         <li>
                           Developed a NodeJS and Angular app that lets students
@@ -323,9 +301,7 @@ class Resume extends Component {
                       <div className="resume_project_title">
                         VROOMMANAGER – CAR MANAGEMENT SYSTEM
                       </div>
-                      <div className="resume_project_date">
-                        JANUARY, 2020
-                      </div>
+                      <div className="resume_project_date">JANUARY, 2020</div>
                       <div className="res_project_bullets">
                         <li>
                           Developed a NodeJS and ReactJS app that lets you
@@ -345,73 +321,31 @@ class Resume extends Component {
                   <td className="resume_margin">Work Experience</td>
                   <td className="resume_page">
                     <div className="res_experience">
-                      {/* Tim Hortons */}
+                      {/* Tangerine */}
                       <div className="resume_experience_title">
-                        TIM HORTONS – FRONT HANDLER
+                        TANGERINE – SERVICENOW DEVELOPER/ADMINISTRATOR
                       </div>
                       <div className="resume_experience_date">
-                        JULY 2019 - DECEMBER 2019
+                        SEPTEMBER 2020 - APRIL 2021
                       </div>
                       <div className="res_experience_bullets">
                         <li>
-                          Handled the cash register as well as took care of the
-                          premises
-                        </li>
-                        <li>Kept food inventory up-to-date and fresh</li>
-                        <li>
-                          Made customers’ orders in a team environment with the
-                          most efficiency
-                        </li>
-                      </div>
-                    </div>
-
-                    <br />
-                    {/* Canadian Tire Gas Station */}
-                    <div className="res_experience">
-                      <div className="resume_experience_title">
-                        CANADIAN TIRE GAS STATION – CASHIER
-                      </div>
-                      <div className="resume_experience_date">
-                        AUGUST 2017 - JANUARY 2018
-                      </div>
-                      <div className="res_experience_bullets">
-                        <li>
-                          Handled the cash register as well as took care of the
-                          premises
+                          Designed, developed and tested new features heavily on
+                          the change management, incident and request forms to
+                          increase efficiency and accuracy in addition to
+                          meeting the needs of the business.
                         </li>
                         <li>
-                          Kept inventory up-to-date, including gasoline/diesel
-                          and convenience store inventories
-                        </li>
-                        <li>Processed lottery and cigarette sales</li>
-                      </div>
-                    </div>
-
-                    <br />
-                    {/* UCMAS */}
-                    <div className="res_experience">
-                      <div className="resume_experience_title">
-                        UCMAS – TUTOR
-                      </div>
-                      <div className="resume_experience_date">
-                        FEBRUARY 2017 – SEPTEMBER 2017
-                      </div>
-                      <div className="res_experience_bullets">
-                        <li>
-                          Taught English and Math to students in grades 6 to 9
+                          Resolved 152 incidents and requests tickets in my
+                          third’s month alone which included major and minor bug
+                          fixes, requirement gathering, analysis, creating,
+                          updating, reviewing or deleting existing items,
+                          features and workflows.
                         </li>
                         <li>
-                          Regularly explored areas of difficulty to strengthen
-                          the student’s weaknesses
-                        </li>
-                        <li>
-                          Effectively communicated the student’s performance and
-                          advancement with their parents to enhance parent-tutor
-                          relationships
-                        </li>
-                        <li>
-                          Guided students to improve work ethics, as well as
-                          encouraged creative thinking
+                          Supported in the integration of Microsoft SCCM,
+                          Dynatrace and SolarWinds with the ServiceNow platform
+                          as well as writing up documentation.
                         </li>
                       </div>
                     </div>

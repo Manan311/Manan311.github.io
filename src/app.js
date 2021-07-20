@@ -17,11 +17,14 @@ function App() {
         <Switch>
           <Route exact path="/" render={() => <Home />} />
           <Route exact path="/My_Website" render={() => <Home />} />
-          <Route exact path="/My_Website/" render={() => <About />} />
           <Route exact path="/about" render={() => <About />} />
+          <Route exact path="/My_Website/about" render={() => <About />} />
           <Route exact path="/skills" render={() => <Skills />} />
+          <Route exact path="/My_Website/skills" render={() => <Skills />} />
           <Route exact path="/projects" render={() => <Projects />} />
+          <Route exact path="/My_Website/projects" render={() => <Projects />} />
           <Route exact path="/resume" render={() => <Resume />} />
+          <Route exact path="/My_Website/resume" render={() => <Resume />} />
           {/* <Route exact path='/github/:id' render={(props) => (<Github id={props.match.params.id} />)}/> */}
           {/* To get input from url like, 'api/:id'
     <Route path='/cars/detail/:id' render={(props) => (<GetOne id={props.match.params.id} />)}/>
