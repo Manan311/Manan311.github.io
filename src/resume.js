@@ -227,7 +227,7 @@ class Resume extends Component {
                         SENECA COLLEGE – BACHELORS OF SOFTWARE DEVELOPMENT
                       </div>
                       <div className="resume_education_date">
-                        JANUARY, 2018 - August, 2021
+                        JANUARY, 2018 - AUGUST, 2021
                       </div>
                       <div className="res_education_bullets">
                         <li>
@@ -254,7 +254,7 @@ class Resume extends Component {
                         CAPSTONE PROJECT – REALTOR WEBSITE
                       </div>
                       <div className="resume_project_date">
-                        MAY, 2019 – April, 2020
+                        MAY, 2019 – APRIL, 2020
                       </div>
                       <div className="res_project_bullets">
                         <li>
