@@ -70,10 +70,10 @@ class Resume extends Component {
                     <p>
                       An aspiring fourth-year student at Seneca College,
                       currently studying Software Development with Honours, who
-                      is actively looking for fulltime opportunities to
-                      add considerable work experience to his portfolio. In
-                      addition to the work experience, it is also planned to
-                      complete a Master’s in Software Engineering.
+                      is actively looking for fulltime opportunities to add
+                      considerable work experience to his portfolio. In addition
+                      to the work experience, it is also planned to complete a
+                      Master’s in Software Engineering.
                     </p>
                   </td>
                 </tr>
@@ -190,7 +190,8 @@ class Resume extends Component {
                             Frameworks:
                           </th>
                           <td className="resume_skills_table_cell_description">
-                            Angular, ReactJS, React Native, NodeJS, ExpressJS, .NETa
+                            Angular, ReactJS, React Native, NodeJS, ExpressJS,
+                            .NETa
                           </td>
                         </tr>
                         <tr className="resume_skills_table_row_3">
@@ -206,7 +207,9 @@ class Resume extends Component {
                             Other:
                           </th>
                           <td className="resume_skills_table_cell_description">
-                          Git, Agile, RESTful APIs/AJAX/JSON, jQuery, SOAP, MVC, Linux, Unix, Android and Cross Platform Development, White and Black Box Testing
+                            Git, Agile, RESTful APIs/AJAX/JSON, jQuery, SOAP,
+                            MVC, Linux, Unix, Android and Cross Platform
+                            Development, White and Black Box Testing
                           </td>
                         </tr>
                       </tbody>
@@ -224,11 +227,13 @@ class Resume extends Component {
                         SENECA COLLEGE – BACHELORS OF SOFTWARE DEVELOPMENT
                       </div>
                       <div className="resume_education_date">
-                        JANUARY, 2018 - PRESENT
+                        JANUARY, 2018 - August, 2021
                       </div>
                       <div className="res_education_bullets">
                         <li>
-                        Achieved outstanding results in all programming courses such as C, C++, Database, Algorithms and Data Structure, web development, etc.
+                          Achieved outstanding results in all programming
+                          courses such as C, C++, Database, Algorithms and Data
+                          Structure, web development, etc.
                         </li>
                         <li>
                           Experience with scripting and using Unix-based distros
@@ -249,21 +254,23 @@ class Resume extends Component {
                         CAPSTONE PROJECT – REALTOR WEBSITE
                       </div>
                       <div className="resume_project_date">
-                        MAY, 2019 – PRESENT
+                        MAY, 2019 – April, 2020
                       </div>
                       <div className="res_project_bullets">
                         <li>
-                          Developed a NodeJS and ReactJS app that lets users
-                          browse listings for sell via voice using
-                          speech-to-text technology
+                          Designed and developed a MERN web-based application
+                          for real estate sellers and buyers to post and search
+                          for properties to sell or buy.
                         </li>
                         <li>
-                          Integrated MongoDB to store lisiting data in a cloud
+                          Integrated Speech-to-Text technology to render the
+                          search of properties for buyers for a more efficient
+                          way of searching and navigating the site.
                         </li>
                         <li>
-                          Future plan is to develop it so users can create
-                          accounts and be able to store their favourite listings
-                          and post their own listings
+                          Users are able to create accounts on the website to
+                          save previously searched history as well as list their
+                          own homes.
                         </li>
                       </div>
                     </div>
@@ -326,7 +333,7 @@ class Resume extends Component {
                         TANGERINE – SERVICENOW DEVELOPER/ADMINISTRATOR
                       </div>
                       <div className="resume_experience_date">
-                        SEPTEMBER 2020 - APRIL 2021
+                        SEPTEMBER, 2020 - APRIL, 2021
                       </div>
                       <div className="res_experience_bullets">
                         <li>

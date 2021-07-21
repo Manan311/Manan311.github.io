@@ -8,6 +8,8 @@ import Projects from "./projects";
 import Resume from "./resume";
 import NotFound from "./notfound";
 
+import { Button } from 'react-bootstrap';
+
 //creating components
 // npx crcf --notest components/Home
 function App() {
@@ -48,6 +50,47 @@ function App() {
                 Sorry for the inconvenience.
               </h2>
             </div>
+          //   <div className="home-body">
+          //   <div className="home-center">
+          //     <h1 as="h1" className="inverted huge">
+          //       Hello, I am Manan
+          //     </h1>
+          //     <h4 className="inverted">
+          //       Forth Year Software Developer Student
+          //     </h4>
+          //     <br />
+          //     <div className="home-icons-in-line">
+          //     <Button
+          //         icon="linkedin square"
+          //         color="blue"
+          //         size="mini"
+          //         circular
+          //         // onClick={this.linkedInClick}
+          //       ></Button>
+          //       Linkedin
+          //     </div>
+          //     <div className="home-icons-in-line">
+          //     <Button
+          //         icon="github"
+          //         size="mini"
+          //         circular
+          //         // onClick={this.githubClick}
+          //       ></Button>
+          //       Github
+          //     </div>
+          //     <div className="home-icons-in-line">
+          //       <Button
+          //         icon="mail outline"
+          //         size="mini"
+          //         circular
+          //         color="blue"
+          //         // onClick={this.handleCopyClick}
+          //       ></Button>
+          //       {/* {emailButtonText} */}
+          //       Email
+          //     </div>
+          //   </div>
+          // </div>
           )}
         />
       </MobileView>

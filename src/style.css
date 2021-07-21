@@ -50,7 +50,7 @@ text-shadow: 0px 0px 10px darkred;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  height: 81vh;
+  min-height: 81vh;
 }
 
 h1 {

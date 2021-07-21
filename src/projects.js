@@ -132,19 +132,19 @@ class Projects extends Component {
                         alt="Estate.png"
                         wrapped
                         ui={false}
-                        label={{
-                          color: "red",
-                          content: "Developing",
-                          icon: "thumbtack",
-                          ribbon: true,
-                        }}
+                        // label={{
+                        //   color: "red",
+                        //   content: "Developing",
+                        //   icon: "thumbtack",
+                        //   ribbon: true,
+                        // }}
                       />
                       <Card.Content content="red">
                         <Card.Header>
                           Estate
                           <div className="fright">{disabledGitButton}</div>
                         </Card.Header>
-                        <Card.Meta>May, 2019 - Present</Card.Meta>
+                        <Card.Meta>May, 2019 - April, 2020</Card.Meta>
                         <Card.Description className="project-scrollable-description">
                           Estate is a ReactJS web application that uses
                           speech-to-text technology to render searches. Estate
